@@ -6,7 +6,7 @@ const Projects = ({data}) => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const handleClick= (direction) => {
-        direction == "left" ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2) : setCurrentSlide(currentSlide < data.length - 1 > 0 ? currentSlide + 1 : 0);
+        direction == "left" ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : data.length-1) : setCurrentSlide(currentSlide < data.length - 1 > 0 ? currentSlide + 1 : 0);
     };
 
     return(

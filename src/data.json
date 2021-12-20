@@ -32,13 +32,13 @@
         },
         {
             "id":"4",
-            "icon":"assets/money.png",
-            "icolor":"lightgreen",
-            "title":"Stock Price and Realized Volatility Predictor",
-            "desc":"Using NN and various ML algorithms, I attempt to construct models that predict stocks prices and realized volatility. Addtionally, this project explores the ideas of improving these models by web scaping news articles.",
-            "pic":"assets/market.jpg",
-            "git":"https://github.com/Jun-Li8/Realized-Volatility-Predictor",
-            "color":"#E7D27C"
+            "icon":"assets/budgeticon.png",
+            "icolor":"gold",
+            "title":"Citibank Budgeting App",
+            "desc":"I have always struggled with budgetting. This app pulls all of my spending using the Citibank API. The app then categorizes my spending and creates useful visuals to indicate where I can cut costs.",
+            "pic":"assets/budget.jpg",
+            "git":"https://github.com/Jun-Li8/CitiBudget-App",
+            "color":"lightgray"
         }
     ]
 }
