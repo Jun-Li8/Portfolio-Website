@@ -1,0 +1,54 @@
+.contact{
+    background-color: #FFD1DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .left{
+        height: calc(30em + 15vh);
+        width: 15em;
+        flex:40%;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+        img{
+            padding-top: 4em;
+            size: 10em;
+        }
+        overflow: hidden;
+    }
+    .right{
+        height: 100%;
+        flex: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h2{
+            overflow: visible;
+        }
+        form{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            >*{
+                margin-bottom: 1em;
+                width: 30vw;
+            }
+            textarea{
+                height: 15vh;
+            }
+
+        }
+        .formContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.intro{
+    background-color: #FDFD96;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 10vw;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: calc(2em + 1vmin);
+    padding-top: calc(2em + 1vmin);
+    .link{
+        text-decoration: none;
+    }
+    padding-right: 10vw;
+
+    .gif{
+      height:auto;
+      width:auto;
+      max-width: calc(20em + 1vmax);
+      max-height: calc(20em + 1vmax);
+      margin-left:auto;
+      margin-right: 10vmin;
+      
+    }
+
+    h1 {
+        font-size: calc(2em + 1.5vmin);
+        overflow:visible;
+        margin-bottom: 0.2em;
+        }
+      h2 {
+        font-size: 35px;
+      }
+      h3 {
+        overflow: visible;
+        font-size: calc(0.75em + 1.5vmin);
+        }
+    
+}
+.highlight{
+    color: maroon;
+}

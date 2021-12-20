@@ -1,0 +1,44 @@
+{
+    "projects":[
+        {
+            "id":"1",
+            "icon":"assets/computer-vision-icon.png",
+            "icolor":"lightblue",
+            "title":"Masked Face Recognition",
+            "desc":"COVID19 has made mask wearing the new norm, posing many issues for face recognition softwares. In this project, I combine CNN and modern face recognition algorithms to construct a masked face detector.",
+            "pic":"assets/Facemask-Detection-Blog1.jpg",
+            "git":"https://github.com/Jun-Li8/Masked-Face-Recognition",
+            "color":"lightpink"
+        },
+        {
+            "id":"2",
+            "icon":"assets/cyber-bullying.png",
+            "icolor":"lightcoral",
+            "title":"Zoom Bully Detector",
+            "desc":"In the age of online classroom and meetings, bullying and negative bahavior has not disappered but rather has moved online. Zoom Bully Detector detects these negative behaviors within a live Zoom meeting emails feedback report afterwards",
+            "pic":"assets/cyberbullying.jpg",
+            "git":"https://github.com/Jun-Li8/Zoom-Bully-Detector",
+            "color": "lavender"
+        },
+        {
+            "id":"3",
+            "icon":"assets/money.png",
+            "icolor":"lightgreen",
+            "title":"Stock Price and Realized Volatility Predictor",
+            "desc":"Using NN and various ML algorithms, I attempt to construct models that predict stocks prices and realized volatility. Addtionally, this project explores the ideas of improving these models by web scaping news articles.",
+            "pic":"assets/market.jpg",
+            "git":"https://github.com/Jun-Li8/Realized-Volatility-Predictor",
+            "color":"#E7D27C"
+        },
+        {
+            "id":"4",
+            "icon":"assets/money.png",
+            "icolor":"lightgreen",
+            "title":"Stock Price and Realized Volatility Predictor",
+            "desc":"Using NN and various ML algorithms, I attempt to construct models that predict stocks prices and realized volatility. Addtionally, this project explores the ideas of improving these models by web scaping news articles.",
+            "pic":"assets/market.jpg",
+            "git":"https://github.com/Jun-Li8/Realized-Volatility-Predictor",
+            "color":"#E7D27C"
+        }
+    ]
+}
